@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body #id="bod">
+    <header id="header">
+        
+            <div id="hmain">
+            <div id="logo">
+                <img src="media/logo.jpg" alt="image">
+            </div>
+           
+
+            <div id="menu">
+                
+                <nav>
+                    <ul>
+                        <li><button type="button" class="servbut" onclick="homeFun()">Home</button></li>
+                        <li> <button type="button" class="servbut" onclick="aboutFun()">About</button></li>
+                        <li>
+                            <button class="dropbtn servbut" id="servbut">Services
+
+                            <div class="dropdown-content">
+                                <a href="#" class="sers">Ants Control</a>
+                                <a href="#" class="sers">Cockroach Control
+                                </a>
+                                
+                                    <a href="#" class="sers" id="optopn">Other Services
+                              
+                                <div class="nested-dropdown">
+                                    <a href="#" class="sers1">Mosquito Control</a>
+                                    <a href="#" class="sers1">Rodent Control</a>
+                                    <a href="#" class="sers1">Termite Control</a>
+                                </div>
+                            </a>
+                                <a href="#" class="sers">Lizard Control</a><br>
+                               
+                                
+                            </div>
+                        </button>
+                        
+                        </li>
+                        <li><button type="button" class="servbut" onclick="contactFun()">Contact Us</button></li>
+                    </ul>
+                </nav>
+                
+                    </div>
+            </div>
+            </div>
+        
+    </header>
+
+
+
+        <main id="main">
+
+        
+
+            <div id="about">
+
+                <p>
+                    <div id="para1">
+                       <center> <h1>Real Pest control Services</h1></center>
+                        Real Pest control Services in Bhimavaram, Hyderabad
+                    Pest control services refer to the methods and practices used to keep pests away from homes, 
+                    businesses, and other areas. These methods include physical and chemical controls to prevent entry, 
+                    harborage, and infestation of pests, and monitoring, detection, and eradication of pests. Pest control is
+                     the regulation or management of a species defined as a pest, such as any animal, plant, or fungus that impacts 
+                     adversely on human activities. Integrated Pest Management (IPM) is an environmentally friendly, common sense approach 
+                     to controlling pests that uses the most effective, lowest risk options considering the risks to the applicator, building 
+                     occupants, and environment. Pest control services can be customised to meet the specific needs of 
+                    each client and may include rodent control, ant control, cockroach control, and more.
+                    </div><br>
+
+                    <div id="img1" class="ab_imgs">
+
+                        <img src="media/pst.png" alt="">
+                    </div>
+
+                    <div id="img2" class="ab_imgs">
+                        <img src="/media/imgpst.jpeg" alt="">
+                    </div>
+
+                    <div id="para2">
+                       <center> <h1>Overview and Location</h1></center>
+                    Real Pest Management Services is a pest control service provider located in Hyderabad serving 
+                    clients in the surrounding regions. With an office situated in Hyderabad area, Real Pest Control 
+                    Services has been operating in the pest control industry for over years. Available during regular
+                     business hours from, Real Pest control Services aims to provide effective and affordable pest control to 
+                     residential and commercial clients.
+                    </div>
+                    
+                </p>
+
+            </div>
+
+
+
+
+            
+            <div id="homecon">
+
+                <div id="tit">
+                    <h1>Real Pest
+                        Control Services</h1>
+                </div>
+
+            <div id="signup">
+                <button type="button" onclick="loginFun()">Sign Up For Services</button> 
+                
+            </div>
+
+                <div id="image">
+                <img id="slideImage" src="media/i1.png" alt="Slideshow Image">
+                <br>
+                
+
+                <div id="but1" class="buts">
+                <button onclick="previousImage()">Previous</button>
+                </div>
+
+                <div id="but2" class="buts">
+                <button onclick="nextImage()">Next</button>
+                </div>
+            </div>
+        
+
+            </div>
+                
+                
+
+           
+
+
+            <div id="contactus">
+
+               <h1 id="chead">Contact Us</h1> 
+
+                <div id="loc" class="cons">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3805.187606738533!2d78.49491669999999!3d17.498555600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI5JzU0LjgiTiA3OMKwMjknNDEuNyJF!5e0!3m2!1sen!2sin!4v1714489178284!5m2!1sen!2sin" width="400" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div id="form" class="cons">
+
+                    <form action="">
+                        
+                        <input type="text" placeholder="Enter Name" name="name"><br><br>
+
+                        <input type="text" placeholder="Enter Phone Number" name="phno"><br><br>
+
+                        <input type="text" placeholder="Subject" name="subject"><br><br>
+                        <div id="msg">
+                            <input type="text" placeholder="Message" name="msg"><br>
+
+                        </div>
+
+                        <input type="submit" value="Submit" >
+
+                    </form>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div id="login_Con">
+
+                <div id="login">
+                    <h1>Sign Up</h1>
+                    <input type="text" placeholder="Enter name" id="uname">
+                    <input type="text" placeholder="Enter Phone Number" id="uphno">
+                    <input type="text" placeholder="Enter Location" id="uloc">
+                    <input type="submit" value="signup" id="l">
+                   
+            
+                </div>
+                <h4 id="matter">Please SignUp we will reach You.</h4>
+
+                <div id="suc_msg">
+                    <h1>SignUp Sucessfull!!</h1>
+                </div>
+
+            </div>
+
+        
+    </main>
+
+
+    <footer>
+
+        <div class="footer_container">
+            <div class="contact_info">
+                
+                <p>&#9993; Email: info@example.com</p><br>
+                <p>&#128222; Phone: +1234567890</p>
+                <p>&#x1F4CD; Address: Secunderabad, Telangana, 500015</p>
+            </div>
+            <div class="copy_right">
+                <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+            </div>
+    </footer>
+
+</body>
+</html>
