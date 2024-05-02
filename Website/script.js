@@ -1,5 +1,8 @@
 function aboutFun()
-{   document.getElementById("homecon").style.display = "none";
+{ 
+    document.getElementById("cockroach").style.display="none"
+    document.getElementById("ant").style.display="none";
+    document.getElementById("homecon").style.display = "none";
     document.getElementById("contactus").style.display="none";
     document.getElementById("login_Con").style.display="none";
     var about = document.getElementById("about");
@@ -9,6 +12,9 @@ function aboutFun()
 
 function homeFun()
 {
+    document.getElementById("ant").style.display="none";
+    document.getElementById("cockroach").style.display="none"
+
     document.getElementById("about").style.display="none";
     document.getElementById("contactus").style.display="none";
     document.getElementById("login_Con").style.display="none";
@@ -50,13 +56,13 @@ function nextImage() {
 
 // Function to start automatic sliding
 function startAutoSlide() {
-    intervalId = setInterval(nextImage, 3000); // Change the interval time as needed (in milliseconds)
+    intervalId = setInterval(nextImage, 2000); // Change the interval time as needed (in milliseconds)
 }
 
 // Function to stop automatic sliding
 function stopAutoSlide() {
     clearInterval(intervalId);
-}
+ }
 
 // Start automatic sliding when the page loads
 window.onload = startAutoSlide;
@@ -65,6 +71,9 @@ window.onload = startAutoSlide;
 
 function contactFun()
 {
+    document.getElementById("ant").style.display="none";
+    document.getElementById("cockroach").style.display="none"
+
     console.log("in contact us")
     document.getElementById("homecon").style.display="none"
     document.getElementById("about").style.display="none"
@@ -79,8 +88,33 @@ function loginFun()
     document.getElementById("homecon").style.display="none"
     document.getElementById("about").style.display="none"
     document.getElementById("contactus").style.display="none"
+    document.getElementById("ant").style.display="none";
+    document.getElementById("cockroach").style.display="none"
 
     document.getElementById("login_Con").style.display="block";
+}
+
+function antFun()
+{
+    document.getElementById("homecon").style.display="none"
+    document.getElementById("about").style.display="none"
+    document.getElementById("contactus").style.display="none"
+    document.getElementById("login_Con").style.display="none";
+    document.getElementById("cockroach").style.display="none"
+
+    document.getElementById("ant").style.display="block";
+
+}
+
+function cockroachfun()
+{
+    document.getElementById("homecon").style.display="none"
+    document.getElementById("about").style.display="none"
+    document.getElementById("contactus").style.display="none"
+    document.getElementById("login_Con").style.display="none";
+    document.getElementById("ant").style.display="none";
+    document.getElementById("cockroach").style.display="block"
+
 }
 
 const submit=document.querySelector('#l');
